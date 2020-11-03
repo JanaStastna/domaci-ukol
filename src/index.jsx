@@ -5,12 +5,12 @@ import './index.html';
 render(
   <>
     <header>
-      <h1>React Starter</h1>
+      <h1>O projektu Počítače pro školáky</h1>
     </header>
     <main>
-      <p>Moje první React stránka</p>
+      <p>#pocitaceproskolaky</p>
     </main>
-    <footer>Martin Podloucký</footer>
+    <footer>Jana Šťastná & Zuzana Bělašková</footer>
   </>,
   document.querySelector('#app')
 );

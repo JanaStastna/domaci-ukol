@@ -1,16 +1,11 @@
 import React from 'react';
 import { render } from 'react-dom';
 import './index.html';
+import './style.css'
+import { Header } from './Header/index.jsx';
 
-render(
-  <>
-    <header>
-      <h1>O projektu Počítače pro školáky</h1>
-    </header>
-    <main>
-      <p>#pocitaceproskolaky</p>
-    </main>
-    <footer>Jana Šťastná & Zuzana Bělašková</footer>
-  </>,
-  document.querySelector('#app')
-);
+const App = () => {
+  return <Header />;
+};
+
+render(<App />, document.querySelector('#app'));

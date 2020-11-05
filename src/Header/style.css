@@ -1,0 +1,38 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+}
+
+header{
+  font-family: 'Courgette', cursive;
+  background-color: rgb(255, 234, 206);
+}
+
+.header-left,
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  width: 5rem;
+  height: 5rem;
+  background-image: url('../img/logo2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-items: center;
+}
+
+.header-about_project,
+.header-about_us {
+  font-size: 20px;
+}
+.header-about_us{
+  padding: 0 15px;
+}
+
+.header-name {
+  padding-left: 10px;
+}

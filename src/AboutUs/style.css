@@ -1,0 +1,16 @@
+.AboutUs {
+  display: flex;
+  flex-direction: column;
+}
+
+.About {
+  padding: 0 45px;
+}
+
+.titleAbout {
+  background-color: #ea907a;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  margin: 0 5px;
+}

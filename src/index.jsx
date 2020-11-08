@@ -5,6 +5,7 @@ import './style.css';
 import { Header } from './Header/index.jsx';
 import { AboutProject } from './AboutProject/index.jsx';
 import { AboutUs } from './AboutUs/index.jsx';
+import { Footer } from './Footer/index.jsx';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Header />
       <AboutProject />
       <AboutUs />
+      <Footer />
     </>
   );
 };

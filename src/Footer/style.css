@@ -1,0 +1,11 @@
+.sectionFooter {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(14, 109, 133);
+  color: white;
+}
+
+.DA {
+  padding: 20px;
+}
+

@@ -1,0 +1,9 @@
+.mainTitle {
+  color: red;
+}
+
+.image {
+  background-image: url("../img/computer.jpg");
+  background-size: cover;
+}
+

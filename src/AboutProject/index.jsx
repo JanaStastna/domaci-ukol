@@ -18,10 +18,10 @@ export const AboutProject = () => {
               Pandemie koronaviru přenusula studium do online prostředí, ale
               mnoho žáků a studentů nemá vyhovující podmínky a každým dnem jim
               tak utíká část výuky. Tuto zrátu budou po návratu do škol stěží
-              dohánět. Pojďme společně pomoci tam, kde je to potřeba!
+              dohánět. Pojďme společně pomoci tam, kde je to potřeba.
             </p>
           </div>
-          <div className="image"></div>
+          <div className="aboutProject-image"></div>
           <div className="message">
             Nedarujete jen počítač, darujete vzdělání!
           </div>

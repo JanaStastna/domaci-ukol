@@ -37,4 +37,9 @@
 .sectionProject {
   padding: 15px 45px;
   margin: 25px 0;
+  background-image: url('../img/imageFoto.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  color: white;
 }

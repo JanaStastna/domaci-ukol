@@ -11,8 +11,8 @@ export const Header = () => {
           </div>
       
           <div className="header-right">
-            <button id="nav-btn" class="nav-btn"></button>
-            <nav class="nav-closed">
+            <button id="nav-btn" className="nav-btn"></button>
+            <nav className="nav-closed">
               <a className="header-about_project" href="#" >O projektu</a>
               <a className="header-about_us" href="#aboutUs">O nás</a>
             </nav>

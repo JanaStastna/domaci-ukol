@@ -10,7 +10,7 @@ const imageComputer = {
 export const AboutProject = () => {
   return (
     <>
-      <section className="aboutProject">
+      <section id="aboutProject" className="aboutProject">
         <div className="section1">
           <div className="sectionProject">
             <h1 className="mainTitle">O projektu</h1>

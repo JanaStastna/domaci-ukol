@@ -3,7 +3,7 @@ import './style.css';
 
 export const AboutUs = () => {
   return (
-    <div className="AboutUs">
+    <div id="aboutUs" className="AboutUs">
       <h1 className="titleAbout">O nás</h1>
       <div className="About">
         <div className="AboutZuzana">

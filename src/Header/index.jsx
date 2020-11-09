@@ -11,8 +11,8 @@ export const Header = () => {
           </div>
       
           <div className="header-right">
-            <div className="header-about_project" href="#" >O projektu</div>
-            <div className="header-about_us" href="#">O nás</div>
+            <a className="header-about_project" href="#" >O projektu</a>
+            <a className="header-about_us" href="#aboutUs">O nás</a>
           </div>
       </div>
     </header>

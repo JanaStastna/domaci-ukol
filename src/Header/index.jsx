@@ -11,8 +11,11 @@ export const Header = () => {
           </div>
       
           <div className="header-right">
-            <a className="header-about_project" href="#" >O projektu</a>
-            <a className="header-about_us" href="#aboutUs">O nás</a>
+            <button id="nav-btn" class="nav-btn"></button>
+            <nav class="nav-closed">
+              <a className="header-about_project" href="#" >O projektu</a>
+              <a className="header-about_us" href="#aboutUs">O nás</a>
+            </nav>
           </div>
       </div>
     </header>

@@ -9,12 +9,13 @@ header {
   font-family: 'Open-sans', cursive;
   background-color: rgb(104, 36, 36);
   margin-top: 30px;
-}git 
+}
 
 .header-left,
 .header-right {
   display: flex;
   align-items: center;
+  flex-direction: row;
 }
 
 .header-logo {
@@ -29,11 +30,17 @@ header {
 .header-about_project,
 .header-about_us {
   font-size: 20px;
+  text-decoration: none;
+  color: rgb(245, 237, 237);
+  display: inline-block;
 }
+
 .header-about_us {
   padding: 0 15px;
 }
 
 .header-name {
   padding-left: 10px;
+  color: rgb(245, 237, 237);
 }
+

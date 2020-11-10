@@ -27,7 +27,7 @@
   padding: 20px;
   background-color: #fcb97d;
   color: black;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .aboutProject__section2 {
@@ -40,12 +40,14 @@
   padding: 15px 40px 15px 15px;
   flex-basis: 50%;
   text-align: justify;
+  font-size: 24px;
 }
 
 .aboutProject__section2--forSchools {
   padding: 15px 15px 15px 15px;
   flex-basis: 50%;
   text-align: justify;
+  font-size: 24px;
 }
 
 .aboutProject__section2--title {

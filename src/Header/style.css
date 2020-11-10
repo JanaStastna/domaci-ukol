@@ -1,4 +1,4 @@
-.topbar {
+.header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,14 +11,14 @@ header {
   margin-top: 30px;
 }
 
-.header-left,
-.header-right {
+.header__left,
+.header__right {
   display: flex;
   align-items: center;
   flex-direction: row;
 }
 
-.header-logo {
+.header__logo {
   width: 5rem;
   height: 5rem;
   background-image: url('../img/logofinal.png');
@@ -27,19 +27,19 @@ header {
   align-items: center;
 }
 
-.header-about_project,
-.header-about_us {
+.header__atr-project,
+.header__atr-us {
   font-size: 20px;
   text-decoration: none;
   color: rgb(245, 237, 237);
   display: inline-block;
 }
 
-.header-about_us {
+.header__atr-us {
   padding: 0 15px;
 }
 
-.header-name {
+.header__name {
   padding-left: 10px;
   color: rgb(245, 237, 237);
 }

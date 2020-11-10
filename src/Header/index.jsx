@@ -1,23 +1,27 @@
 import React from 'react';
-import './style.css'
+import './style.css';
 
 export const Header = () => {
   return (
     <header>
-      <div className = "topbar container">
-          <div className="header-left">
-            <div className="header-logo"></div>
-            <h1 className="header-name">Počítače pro školáky</h1>
-          </div>
-      
-          <div className="header-right">
-            <button id="nav-btn" className="nav-btn"></button>
-            <nav className="nav-closed">
-              <a className="header-about_project" href="#" >O projektu</a>
-              <a className="header-about_us" href="#aboutUs">O nás</a>
-            </nav>
-          </div>
+      <div className="header__container">
+        <div className="header__left">
+          <div className="header__logo"></div>
+          <h1 className="header__name">Počítače pro školáky</h1>
+        </div>
+
+        <div className="header__right">
+          <button id="nav-btn" className="nav-btn"></button>
+          <nav className="nav-closed">
+            <a className="header__atr-project" href="#messageAboutProject">
+              O projektu
+            </a>
+            <a className="header__atr-us" href="#aboutUs">
+              O nás
+            </a>
+          </nav>
+        </div>
       </div>
     </header>
-  )
-}
+  );
+};

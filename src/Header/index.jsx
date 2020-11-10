@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <header>
       <div className="header__container">
-        <div className="header__headerLeft">
+        <div className="header__left">
           <div className="header__logo"></div>
           <h1 className="header__name">Počítače pro školáky</h1>
         </div>

@@ -1,20 +1,6 @@
-/.AboutUs {
+.AboutUs {
   display: flex;
   flex-direction: column;
-}
-
-.About {
-  display: flex;
-  padding: 0 45px;
-  margin: 0 0 25px 0;
-}
-
-.titleAbout {
-  color: black;
-  padding: 10px 0;
-  margin: 0 5px;
-  text-align: center;
-  background-color: #72a98f;
 }
 
 #aboutUs {
@@ -27,7 +13,31 @@
   padding-bottom: 200px;
 }
 
-.fotoZuzana {
+.aboutUs__title {
+  color: black;
+  padding: 10px 0;
+  margin: 0 5px;
+  text-align: center;
+  background-color: #72a98f;
+}
+
+.aboutUs__about {
+  display: flex;
+  padding: 0 45px;
+  margin: 0 0 25px 0;
+}
+
+.aboutUs__about--Zuzana {
+  padding-right: 30px;
+  text-align: justify;
+}
+
+.aboutUs__about--Zuzana--header {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutUs__about--Zuzana--foto {
   background-image: url('../img/Zuzka.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,7 +48,17 @@
   justify-content: center;
 }
 
-.fotoJana {
+.aboutUs__about--Jana {
+  padding-left: 25px;
+  text-align: justify;
+}
+
+.aboutUs__about--Jana--header {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutUs__about--Jana--foto {
   background-image: url('../img/Jana.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -48,22 +68,40 @@
   border-radius: 50%;
 }
 
-.fotoJmenoZuzana {
-  display: flex;
-  flex-direction: column;
-}
+@media screen and (max-width: 768px) {
+  .aboutUs__about {
+    display: flex;
+    flex-direction: column;
+    padding: 0 45px;
+    margin: 0 0 25px 0;
+  }
 
-.fotoJmenoJana {
-  display: flex;
-  flex-direction: column;
-}
+  .aboutUs__about--Jana {
+    padding-left: 0;
+    text-align: justify;
+  }
 
-.AboutZuzana {
-  padding-right: 30px;
-  text-align: justify;
-}
+  .aboutUs__about--Zuzana {
+    padding-right: 0px;
+    text-align: justify;
+  }
 
-.AboutJana {
-  padding-left: 25px;
-  text-align: justify;
+  #aboutUs {
+    padding: 0;
+    background-image: none;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .aboutUs__about--Jana--header {
+    display: flex;
+    align-items: center;
+  }
+
+  .aboutUs__about--Zuzana--header {
+    display: flex;
+    align-items: center;
+  }
 }

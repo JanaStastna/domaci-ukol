@@ -3,15 +3,15 @@ import './style.css';
 
 export const AboutUs = () => {
   return (
-    <div id="aboutUs" className="AboutUs">
-      <h1 className="titleAbout">O nás</h1>
-      <div className="About">
-        <div className="AboutZuzana">
-          <div className="fotoJmenoZuzana">
+    <div id="aboutUs" className="aboutUs">
+      <h1 className="aboutUs__title">O nás</h1>
+      <div className="aboutUs__about">
+        <div className="aboutUs__about--Zuzana">
+          <div className="aboutUs__about--Zuzana--header">
             <h3>Zuzana</h3>
-            <div className="fotoZuzana"></div>
+            <div className="aboutUs__about--Zuzana--foto"></div>
           </div>
-          <div className="parZuzana">
+          <div className="aboutUs__about--Zuzana--par">
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel sunt
               reiciendis possimus quidem voluptate aut! Fuga accusamus alias
@@ -22,12 +22,12 @@ export const AboutUs = () => {
           </div>
         </div>
 
-        <div className="AboutJana">
-          <div className="fotoJmenoJana">
+        <div className="aboutUs__about--Jana">
+          <div className="aboutUs__about--Jana--header">
             <h3>Jana</h3>
-            <div className="fotoJana"></div>
+            <div className="aboutUs__about--Jana--foto"></div>
           </div>
-          <div className="parJana">
+          <div className="aboutUs__about--Jana--par">
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint
               nostrum dicta aspernatur! Ipsum minus soluta, vero quis, pariatur,

@@ -19,6 +19,10 @@ header {
   padding: 20px 40px;
 }
 
+.header__right{
+padding: 20px 0px;
+}
+
 .header__logo {
   width: 5rem;
   height: 5rem;
@@ -34,15 +38,15 @@ header {
   text-decoration: none;
   display: inline-block;
   color: black;
-  padding-right: 30px;
+  padding: 20px 30px 20px 20px;
 }
 
-.header__atr-us {
-  padding: 0 15px;
+.header__atr-us{
+  padding: 20px 40px 20px 20px;
 }
 
 .header__name {
-  padding-left: 10px;
+  padding-left: 20px;
   color: rgb(black);
 }
 

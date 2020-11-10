@@ -4,12 +4,20 @@
 
 .aboutProject__section1--mainInfo {
   padding: 50px 150px 350px 150px;
-  background-image: url('../img/imageFoto.jpg');
+  background: url('../img/imageFoto.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   align-items: center;
   color: white;
+}
+
+.aboutProject__section1--mainInfo:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('../img/imageFoto.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 .aboutProject__section1--mainInfo--title {

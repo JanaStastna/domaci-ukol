@@ -13,7 +13,10 @@ export const Header = () => {
         <div className="header__right">
           <button id="nav-btn" className="nav-btn"></button>
           <nav className="nav-closed">
-            <a className="header__atr-project" href="#messageAboutProject">
+            <a
+              className="header__atr-project"
+              href="#aboutProject__section1--message"
+            >
               O projektu
             </a>
             <a className="header__atr-us" href="#aboutUs">

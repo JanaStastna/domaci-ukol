@@ -24,8 +24,10 @@ export const AboutProject = () => {
               ke studentům, kteří ji potřebují.
             </p>
           </div>
-          <div className="aboutProject-image"></div>
-          <div id="messageAboutProject" className="message">
+          <div
+            id="aboutProject__section1--message"
+            className="aboutProject__section1--message"
+          >
             Nedarujete jen počítač, darujete vzdělání!
           </div>
         </div>

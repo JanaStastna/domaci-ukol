@@ -1,7 +1,7 @@
 .sectionFooter {
   display: flex;
   justify-content: space-between;
-  background-color: #004e64;
+  background-color: rgb(169 111 100);
   color: white;
 }
 

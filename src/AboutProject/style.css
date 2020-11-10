@@ -2,38 +2,7 @@
   font-family: 'Open-sans';
 }
 
-.section2 {
-  display: flex;
-  padding: 0 30px 0 30px;
-  margin: 25px 0;
-}
-
-.message {
-  text-align: center;
-  font-weight: bold;
-  padding: 20px;
-  background-color: #ffcb74;
-  color: black;
-  font-size: 20px;
-}
-
-.forCompanies {
-  padding: 15px 40px 15px 15px;
-  flex-basis: 50%;
-  text-align: justify;
-}
-
-.forSchools {
-  padding: 15px 15px 15px 15px;
-  flex-basis: 50%;
-  text-align: justify;
-}
-
-.title {
-  text-align: center;
-}
-
-.sectionProject {
+.aboutProject__section1--mainInfo {
   padding: 50px 150px 350px 150px;
   background-image: url('../img/imageFoto.jpg');
   background-repeat: no-repeat;
@@ -43,11 +12,46 @@
   color: white;
 }
 
-.mainTitle {
+.aboutProject__section1--mainInfo--title {
   text-align: center;
   font-size: 50px;
 }
 
-.parAboutProject {
+.aboutProject__section1--mainInfo--par {
   font-size: 30px;
 }
+
+.aboutProject__section1--message {
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  background-color: #fcb97d;
+  color: black;
+  font-size: 20px;
+}
+
+.aboutProject__section2 {
+  display: flex;
+  padding: 0 30px 0 30px;
+  margin: 25px 0;
+}
+
+.aboutProject__section2--forCompanies {
+  padding: 15px 40px 15px 15px;
+  flex-basis: 50%;
+  text-align: justify;
+}
+
+.aboutProject__section2--forSchools {
+  padding: 15px 15px 15px 15px;
+  flex-basis: 50%;
+  text-align: justify;
+}
+
+.aboutProject__section2--title {
+  text-align: center;
+}
+
+/*doplnit @media a předělat to na mobily a počítače, ať to hezky vypadá...
+přidat gradietn na fotku, ať se to dá číst
+odsazení udělat pomocí rodiče a dítěte (ne pomocí paddingu), to by nám pak nefungovalo u mobilů... připnout jak tu botu tenkrát...*/

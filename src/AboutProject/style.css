@@ -3,21 +3,15 @@
 }
 
 .aboutProject__section1--mainInfo {
-  padding: 50px 150px 350px 150px;
-  background: url('../img/imageFoto.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-  align-items: center;
-  color: white;
-}
-
-.aboutProject__section1--mainInfo:hover {
+  padding: 30px 35px 100px 35px;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url('../img/imageFoto.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+  align-items: center;
+  color: white;
+  text-align: center;
 }
 
 .aboutProject__section1--mainInfo--title {
@@ -27,6 +21,7 @@
 
 .aboutProject__section1--mainInfo--par {
   font-size: 30px;
+  padding: 0;
 }
 
 .aboutProject__section1--message {
@@ -40,20 +35,17 @@
 
 .aboutProject__section2 {
   display: flex;
-  padding: 0 30px 0 30px;
+  flex-direction: column;
+  padding: 0 35px;
   margin: 25px 0;
 }
 
 .aboutProject__section2--forCompanies {
-  padding: 15px 40px 15px 15px;
-  flex-basis: 50%;
   text-align: justify;
   font-size: 24px;
 }
 
 .aboutProject__section2--forSchools {
-  padding: 15px 15px 15px 15px;
-  flex-basis: 50%;
   text-align: justify;
   font-size: 24px;
 }
@@ -62,6 +54,41 @@
   text-align: center;
 }
 
-/*doplnit @media a předělat to na mobily a počítače, ať to hezky vypadá...
+@media screen and (min-width: 768px) {
+  .aboutProject__section1--mainInfo {
+    padding: 50px 150px 350px 150px;
+    background: url('../img/imageFoto.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    align-items: center;
+    color: white;
+  }
+
+  .aboutProject__section1--mainInfo:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url('../img/imageFoto.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+  /* tyto dvě části nefungují, zůstávají sloupce pod sebou */
+  .aboutProject__section2--forCompanies {
+    flex-direction: row;
+    padding: 15px 40px 15px 15px;
+    flex-basis: 50%;
+    font-size: 24px;
+  }
+
+  .aboutProject__section2--forSchools {
+    flex-direction: row;
+    padding: 15px 15px 15px 15px;
+    flex-basis: 50%;
+    font-size: 24px;
+  }
+}
+
+/*
 přidat gradietn na fotku, ať se to dá číst
 odsazení udělat pomocí rodiče a dítěte (ne pomocí paddingu), to by nám pak nefungovalo u mobilů... připnout jak tu botu tenkrát...*/

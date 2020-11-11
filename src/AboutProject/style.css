@@ -42,12 +42,12 @@
 
 .aboutProject__section2--forCompanies {
   text-align: justify;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .aboutProject__section2--forSchools {
   text-align: justify;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .aboutProject__section2--title {
@@ -82,14 +82,14 @@
     flex-direction: row;
     padding: 15px 40px 15px 15px;
     flex-basis: 50%;
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .aboutProject__section2--forSchools {
     flex-direction: row;
     padding: 15px 15px 15px 15px;
     flex-basis: 50%;
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 

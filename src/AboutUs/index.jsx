@@ -27,10 +27,7 @@ export const AboutUs = () => {
           </div>
           <div className="aboutUs__about--Jana--par">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint
-              nostrum dicta aspernatur! Ipsum minus soluta, vero quis, pariatur,
-              temporibus voluptatem a corrupti sit similique ex delectus sunt
-              optio magnam nobis? Voluptatem illo omni
+              Jana ráda věnuje čas a energii věcem, které mají smysl. A tohle smysl má... A to nejen v době pandemie koronaviru. 
             </p>
           </div>
         </div>

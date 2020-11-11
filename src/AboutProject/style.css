@@ -15,7 +15,12 @@
 }
 
 .aboutProject__section1--mainInfo--title {
-  text-align: center;
+  display: none;
+}
+
+.aboutProject__section1--mainInfo--name{
+  display: flex;
+  justify-content: center;
   font-size: 50px;
 }
 
@@ -55,6 +60,16 @@
 }
 
 @media screen and (min-width: 768px) {
+  .aboutProject__section1--mainInfo--name{
+    display: none;
+  }
+
+  .aboutProject__section1--mainInfo--title {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+  }
+
   .aboutProject__section1--mainInfo {
     padding: 50px 150px 350px 150px;
     background: url('../img/imageFoto.jpg');
@@ -98,6 +113,16 @@
   }
 }
 
+@media screen and (min-width: 361px){
+  .aboutProject__section1--mainInfo--title {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+  }
+
+  .aboutProject__section1--mainInfo--name{
+    display: none;
+  }
+}
 /*
-přidat gradietn na fotku, ať se to dá číst
 odsazení udělat pomocí rodiče a dítěte (ne pomocí paddingu), to by nám pak nefungovalo u mobilů... připnout jak tu botu tenkrát...*/

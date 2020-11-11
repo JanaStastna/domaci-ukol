@@ -13,6 +13,9 @@ export const AboutProject = () => {
       <section id="aboutProject" className="aboutProject">
         <div className="aboutProject__section1">
           <div className="aboutProject__section1--mainInfo">
+          <h1 className="aboutProject__section1--mainInfo--name">
+              Počítače pro školáky
+            </h1>
             <h1 className="aboutProject__section1--mainInfo--title">
               O projektu
             </h1>

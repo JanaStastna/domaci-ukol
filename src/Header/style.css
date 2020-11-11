@@ -19,8 +19,8 @@ header {
   padding: 20px 20px;
 }
 
-.header__right{
-padding: 20px 0px;
+.header__right {
+  padding: 20px 0px;
 }
 
 .header__logo {
@@ -39,6 +39,11 @@ padding: 20px 0px;
   display: inline-block;
   color: black;
   padding: 20px;
+}
+
+.header__atr-project:hover,
+.header__atr-us:hover {
+  font-weight: bold;
 }
 
 .header__name {

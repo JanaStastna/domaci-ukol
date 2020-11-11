@@ -20,7 +20,7 @@
 }
 
 .aboutProject__section1--mainInfo--par {
-  font-size: 30px;
+  font-size: 20px;
   padding: 0;
 }
 
@@ -30,7 +30,7 @@
   padding: 20px;
   background-color: #fcb97d;
   color: black;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .aboutProject__section2 {
@@ -90,6 +90,11 @@
     padding: 15px 15px 15px 15px;
     flex-basis: 50%;
     font-size: 20px;
+  }
+
+  .aboutProject__section1--mainInfo--par {
+    font-size: 30px;
+    padding: 0;
   }
 }
 

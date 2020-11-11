@@ -85,13 +85,12 @@ p {
   }
 
   .aboutUs__about--Jana {
-    padding-left: 0;
+    padding: 0;
     text-align: justify;
   }
 
   .aboutUs__about--Zuzana {
-    padding-top: 20px;
-    padding-right: 0px;
+    padding: 0;
     text-align: justify;
   }
 

@@ -73,7 +73,6 @@
     background-position: 50% 50%;
   }
 
-  /* tyto dvě části nefungují, zůstávají sloupce pod sebou */
   .aboutProject__section2 {
     display: flex;
     flex-direction: row;

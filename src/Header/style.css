@@ -91,10 +91,8 @@ header {
   }
 }
 
-@media screen and (min-width: 361px){
+@media screen and (min-width: 361px) and (max-width: 768px) {
   .header__name {
-    display: flex;
-    padding-left: 20px;
-    color: rgb(black);
+    display: none;
   }
 }

@@ -13,11 +13,9 @@ export const AboutUs = () => {
           </div>
           <div className="aboutUs__about--Zuzana--par">
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel sunt
-              reiciendis possimus quidem voluptate aut! Fuga accusamus alias
-              libero neque, officiis est iure reiciendis porro eos distinctio,
-              perspiciatis ipsum voluptates possimus quo ipsa a. Ab quisquam,
-              offic
+              Zuzana je věčný optimista, který chce věřit, že je něco dobrého v
+              každém z nás. Proto také věří, že lidé tento projekt ocení a rádi
+              se zapojí.
             </p>
           </div>
         </div>

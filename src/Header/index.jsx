@@ -19,7 +19,7 @@ export const Header = () => {
               setHamburgerMenu(!hamburgerMenu);
             }}
           ></button>
-          <nav className={hamburgerMenu ? null : 'nav-closed'}>
+          <nav className={hamburgerMenu ? 'nav-open' : 'nav-closed'}>
             <a
               className="header__atr-project"
               href="#aboutProject__section1--message"
